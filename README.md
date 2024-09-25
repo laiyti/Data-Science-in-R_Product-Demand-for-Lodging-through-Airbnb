@@ -91,6 +91,11 @@ We selected three winning models based on their performance evaluated through th
 | Lasso | 0.84 |
 <img width="403" alt="Screenshot 2024-09-25 at 3 19 50 PM" src="https://github.com/user-attachments/assets/017c7956-7e15-4824-921c-b1d04de88a59">
 
+### Feature Importance
+The plot below uses the random forest to generate a features importance chart and see which variables are more important to the model in two aspects, giving us some insight.
+
+<img width="534" alt="Screenshot 2024-09-25 at 3 56 53 PM" src="https://github.com/user-attachments/assets/e475bac5-5826-4246-8258-b59854ba15da">
+
 ## Business Insights Based On Model & Analysis Findings
 ### Host Characteristics Improvement
 When guests choose properties on Airbnb, they often consider not only the property itself but also the characteristics of the host. For example, our model includes features associated with host information, such as whether the host is a superhost, whether they have a profile picture, whether their identity is verified, whether they have a hotel license, and their responsiveness or acceptance rate. By incorporating these features into our model, we can explore the relationship between these host characteristics and high booking rates. Hosts can then focus on improving these characteristics that are important to guests.
@@ -108,9 +113,3 @@ Our model will help hosts choose a location if they are planning to start a new 
 ### Pricing Strategy
 Adjust pricing based on demand patterns and market dynamics to maximize revenue while remaining competitive. Our model can provide insights into optimal pricing strategies tailored to specific properties and market conditions.
 Guest Experience Enhancement: Focus on enhancing the overall guest experience by addressing any shortcomings identified by the model. This may involve improving amenities, addressing maintenance issues, or providing additional services to exceed guest expectations and encourage positive reviews.
-
-### Feature Importance
-The plot below uses the random forest to generate a features importance chart and see which variables are more important to the model in two aspects, giving us some insight.
-
-<img width="534" alt="Screenshot 2024-09-25 at 3 56 53 PM" src="https://github.com/user-attachments/assets/e475bac5-5826-4246-8258-b59854ba15da">
-
